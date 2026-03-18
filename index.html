@@ -1,10 +1,86 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>consultorio-site</title>
+    <meta name="description" content="Clínica de psiquiatria e psicoterapia na Vila Mariana, São Paulo. Atendimento psiquiátrico e psicoterapia psicanalítica. Dr. Rogério e Dra. Thais Coelho de Souza. Consultório e telemedicina." />
+    <meta name="keywords" content="psiquiatra Vila Mariana, psicoterapia São Paulo, psiquiatria, psicoterapia psicanalítica, saúde mental, telemedicina psiquiátrica" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Clínica Coelho de Souza" />
+    <link rel="canonical" href="https://coelhodesouza.com.br/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Clínica Psiquiátrica Vila Mariana | Psiquiatria e Psicoterapia - São Paulo" />
+    <meta property="og:description" content="Atendimento médico psiquiátrico e psicoterapia na Vila Mariana, SP. Psiquiatria clínica, psicoterapia psicanalítica e saúde mental integrada." />
+    <meta property="og:url" content="https://coelhodesouza.com.br/" />
+    <meta property="og:site_name" content="Clínica Coelho de Souza" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Clínica Psiquiátrica Vila Mariana | Psiquiatria e Psicoterapia - São Paulo" />
+    <meta name="twitter:description" content="Atendimento médico psiquiátrico e psicoterapia na Vila Mariana, SP. Consultório e telemedicina." />
+
+    <title>Clínica Psiquiátrica Vila Mariana | Psiquiatria e Psicoterapia - São Paulo</title>
+
+    <!-- JSON-LD: MedicalClinic + LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalClinic",
+          "@id": "https://coelhodesouza.com.br/#clinic",
+          "name": "Clínica Coelho de Souza",
+          "description": "Clínica de psiquiatria e psicoterapia na Vila Mariana, São Paulo. Atendimento psiquiátrico clínico do adulto, psicoterapia psicanalítica e saúde mental integrada.",
+          "url": "https://coelhodesouza.com.br",
+          "telephone": "+55-11-99971-6789",
+          "email": "cmpcoelhodesouza@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rua Dr. Amâncio de Carvalho, 182, conjunto 305",
+            "addressLocality": "Vila Mariana",
+            "addressRegion": "SP",
+            "addressCountry": "BR"
+          },
+          "medicalSpecialty": ["Psiquiatria", "Psicoterapia", "Saúde Mental"],
+          "areaServed": {
+            "@type": "City",
+            "name": "São Paulo"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Serviços",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Psiquiatria Clínica do Adulto"}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Psicoterapia Psicanalítica"}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Saúde Mental Integrada"}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Telemedicina"}}
+            ]
+          }
+        },
+        {
+          "@type": "Physician",
+          "name": "Rogério Nogueira Coelho de Souza",
+          "medicalSpecialty": "Psiquiatria",
+          "knowsAbout": ["Psicoterapia Psicanalítica", "Psiquiatria Infantil"],
+          "identifier": "CRM-SP 40437",
+          "worksFor": {"@id": "https://coelhodesouza.com.br/#clinic"}
+        },
+        {
+          "@type": "Physician",
+          "name": "Thais Costa Coelho de Souza",
+          "medicalSpecialty": "Psiquiatria",
+          "knowsAbout": ["Transtornos Ansiosos", "TOC", "Burnout", "Insônia"],
+          "identifier": "CRM-SP 209030 / RQE 124906",
+          "worksFor": {"@id": "https://coelhodesouza.com.br/#clinic"}
+        }
+      ]
+    }
+    </script>
+
     <!-- Google Analytics (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4YRHCWKTPC"></script>
     <script>

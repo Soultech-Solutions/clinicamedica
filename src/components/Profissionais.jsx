@@ -1,11 +1,11 @@
 import prof1 from "../assets/prof1.png";
 import prof2 from "../assets/prof2.png";
 import "./Profissionais.css";
-import planta from "../assets/Planta-profissional.png";
+import planta from "../assets/planta-profissional.png";
 
 function Profissionais() {
   return (
-    <section className="profissionais-section">
+    <section className="profissionais-section" id="especialidades">
       <img src={planta} alt="" className="planta-bg" />
 
       <div className="container profissionais-container">

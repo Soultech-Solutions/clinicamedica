@@ -2,7 +2,7 @@ import "./Localizacao.css";
 import clinicaImg from "../assets/clinica.png";
 function Localizacao() {
   return (
-    <section className="localizacao-section">
+    <section className="localizacao-section" id="localizacao">
       <div className="localizacao-container">
 
         <div className="localizacao-texto">

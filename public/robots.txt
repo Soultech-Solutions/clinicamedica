@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://coelhodesouza.com.br/sitemap.xml

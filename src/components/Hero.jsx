@@ -17,7 +17,7 @@ function Hero() {
 </nav>
   </div>
 </header>
-      <section className="hero">
+      <section className="hero" id="sobre">
         <div className="hero-left">
           <div className="hero-content">
             <img src={logo} alt="Logo da clínica" className="hero-logo" />
