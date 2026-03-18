@@ -1,0 +1,354 @@
+
+.profissionais-section {
+  position: relative;
+  background-color: #ffffff;
+  padding: 60px 20px 80px 20px;
+  overflow: hidden;
+}
+
+/* Container centralizador */
+.profissionais-container {
+  max-width: 1256px;   /* igual ao Figma */
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Título seção */
+.profissionais-titulo {
+  max-width: 743px;
+  margin: 0 auto 90px auto;
+  font-size: 42px;
+  color: #143755;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.titulo-fino {
+  font-weight: 200;
+  color: #143755;
+}
+.titulo-forte {
+  font-weight: 700;
+  color: #143755;
+}
+/* Card de cada profissional */
+.profissional-card {
+  background: rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 40px 28px;
+  border-radius: 20px;
+  margin-bottom: 140px;
+  position: relative;
+  z-index: 2;
+}
+
+.profissional-foto {
+  display: flex;
+  justify-content: center;
+}
+
+.profissional-info {
+  text-align: left;
+}
+.profissional-info ul {
+  list-style-position: outside;
+  padding-left: 18px;
+  margin: 0;
+}
+
+.profissional-info li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  color: #143755;
+}
+
+.profissional-info li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #143755;
+}
+
+
+
+
+/* Informações do profissional */
+
+
+.profissional-nome {
+  font-size: 28px;
+  color: #143755;
+  margin-bottom: 5px;
+  font-weight: 100;
+}
+
+.profissional-crm {
+  font-size: 16px;
+  color: #143755;
+  margin-bottom: 25px;
+}
+
+.profissional-detalhes {
+  font-size: 1rem;
+  color: #143755;
+  line-height: 1.6;
+}
+
+
+.profissional-foto img {
+  width: 383px;
+  height: 561px;
+  object-fit: cover;
+  border-radius: 24px;
+  display: block;
+  max-width: 100%;
+}
+
+.planta-bg {
+  position: absolute;
+  bottom: -120px;     /* desce um pouco */
+  right: -10px;      /* deixa ela maior lateralmente */
+  height: 1900px;     /* igual ao Figma praticamente */
+  opacity: 0.45;      /* mais visível */
+  z-index: 0;
+  pointer-events: none;
+}
+
+.profissional-texto-final {
+  margin-top: 25px;
+  line-height: 1.6;
+  color: #143755;
+}
+
+.profissional-subtitulo {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #143755;
+}
+
+/* Responsivo - mobile */
+@media (max-width: 768px) {
+
+  .profissional-card {
+    padding: 0;
+    background: none;
+  }
+
+.profissional-foto {
+  order: -1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.profissional-info {
+  order: 1;
+  background-color: rgba(255,255,255,0.55);
+  backdrop-filter: blur(10px);
+  padding: 10px 20px 25px 20px;
+  max-width: 360px;
+  margin: -20px auto 0 auto;
+  border-radius: 20px;
+}
+
+.profissional-info > h3,
+.profissional-info > p.profissional-crm {
+  text-align: center;
+}
+
+.profissional-info ul,
+.profissional-texto-final,
+.profissional-subtitulo {
+  text-align: left;
+}
+  .profissional-info ul {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+  .profissional-info ul {
+  list-style-type: disc;
+}
+
+  .profissional-foto img {
+  width: 100%;
+  max-width: 338px;
+  height: auto;
+  border-radius: 24px;
+  object-fit: contain;
+  border-radius: 24px;
+  display: block;
+}
+
+.especialidade-card button {
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+}
+
+.especialidades-titulo {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+  color: #143755;
+}
+
+.especialidades-grid {
+  margin-bottom: 160px;
+}
+
+.motivos-section {
+  margin: 10px auto 120px auto;
+  max-width: 1256px;
+}
+
+.motivos-titulo {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.25;
+  margin: 0 auto 34px auto;
+  max-width: 920px;
+  color: #143755;
+  font-weight: 400;
+}
+
+.motivos-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.motivo-bullet {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(244, 244, 242, 0.75);
+  border: 1px solid rgba(20, 55, 85, 0.10);
+  box-shadow: 0 10px 30px rgba(20, 55, 85, 0.06);
+}
+
+@media (min-width: 992px) {
+  .motivo-bullet {
+    padding: 16px 18px;
+  }
+}
+
+.motivo-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  margin-top: 5px;
+  background: rgba(0, 169, 157, 0.95);
+  box-shadow: 0 0 0 4px rgba(0, 169, 157, 0.14);
+  flex: 0 0 auto;
+}
+
+.motivo-text {
+  color: rgba(20, 55, 85, 0.88);
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.especialidade-card {
+  min-height: 520px;
+  background: #f4f4f2;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+}
+
+.especialidade-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #143755;
+  margin-bottom: 30px;
+}
+
+.especialidade-card p {
+  font-size: 15px;
+  flex-grow: 1;
+  line-height: 1.6;
+  color: #143755;
+  flex-grow: 1;
+}
+
+.especialidade-card button {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #044275;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+
+}
+
+@media (max-width: 768px) {
+
+  .especialidades-titulo {
+    font-size: 22px;
+    white-space: nowrap;
+  }
+
+  .motivos-section {
+    margin: 0 auto 90px auto;
+  }
+
+  .motivos-titulo {
+    font-size: 18px;
+    line-height: 1.25;
+    margin-bottom: 22px;
+    padding: 0 10px;
+  }
+
+  .motivo-bullet {
+    padding: 12px 14px;
+  }
+
+  .motivo-text {
+    font-size: 13px;
+  }
+
+.profissional-nome {
+  font-size: 24px;
+  line-height: 1.25;
+  max-width: 340px;  
+  font-weight: 600;
+  margin: 0 auto 6px auto;
+  text-align: center;
+}
+
+.profissional-crm {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profissional-detalhes {
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.profissionais-titulo {
+  font-size: 26px;
+  line-height: 1.2;
+  margin-bottom: 60px;
+}
+.planta-bg {
+  right: -200px;
+  bottom: 300px;     /* começa na foto 2 */
+  height: 900px;
+  opacity: 0.35;
+}
+
+}
+
