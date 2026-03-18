@@ -60,3 +60,55 @@
   font-size: 14px;
   color: #666;
 }
+
+@media (max-width: 768px) {
+  .localizacao-section {
+    padding: 50px 16px 0 16px;
+  }
+
+  .localizacao-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .localizacao-texto h2 {
+    font-size: 32px;
+    margin-bottom: 14px;
+  }
+
+  .localizacao-texto p {
+    font-size: 14px;
+  }
+
+  .btn-agendar {
+    margin-top: 16px;
+    padding: 12px 26px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .localizacao-imagem {
+    width: 100%;
+  }
+
+  .localizacao-imagem img {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .localizacao-mapa {
+    margin-top: 30px;
+  }
+
+  .localizacao-mapa iframe {
+    height: 240px !important;
+  }
+
+  .localizacao-footer {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+  }
+}
