@@ -47,14 +47,21 @@ function Hero() {
       </section>
 
       {/* WhatsApp flutuante */}
-      <button 
-  className="whatsapp-float"
-  onClick={() => alert("Abriria WhatsApp")}
->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="36" height="36" fill="white">
-    <path d="M380.9 97.1C339-13 255.3-12.8 207.2 34.6c-48.1 47.4-48.8 130.6 0 178l-24 69.7c-3 8.6 7.2 16.4 15.7 12l70.6-29.7c47.7 28.7 106.6 17.5 144.4-25.4 35.7-41.4 40.4-102.8 12.4-147.5zM224 303.4c-36.9 0-67-29.9-67-66.8 0-36.9 30-66.9 67-66.9 36.9 0 66.9 30 66.9 66.9 0 36.9-30 66.8-66.9 66.8z"/>
-  </svg>
-</button>
+      <a
+        className="whatsapp-float"
+        href="https://api.whatsapp.com/send?phone=5511999716789&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta."
+        aria-label="Falar no WhatsApp"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+          width="36"
+          height="36"
+          fill="white"
+        >
+          <path d="M380.9 97.1C339-13 255.3-12.8 207.2 34.6c-48.1 47.4-48.8 130.6 0 178l-24 69.7c-3 8.6 7.2 16.4 15.7 12l70.6-29.7c47.7 28.7 106.6 17.5 144.4-25.4 35.7-41.4 40.4-102.8 12.4-147.5zM224 303.4c-36.9 0-67-29.9-67-66.8 0-36.9 30-66.9 67-66.9 36.9 0 66.9 30 66.9 66.9 0 36.9-30 66.8-66.9 66.8z" />
+        </svg>
+      </a>
     </>
   )
 }
