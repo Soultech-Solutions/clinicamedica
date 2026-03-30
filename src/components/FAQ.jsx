@@ -4,31 +4,31 @@ import { useState, useEffect } from "react";
 const FAQ_DATA = [
   {
     pergunta: "São aceitos convênios médicos?",
-    resposta: "Atualmente o atendimento é realizado de forma particular. Entre em contato pelo WhatsApp (11) 99971-6789 ou e-mail cmpcoelhodesouza@gmail.com para informações sobre valores e formas de pagamento."
+    resposta: "Não fazemos atendimentos de convênios, mas há emissão de nota fiscal para que você avalie a possibilidade de reembolso pelo seu convênio."
   },
   {
     pergunta: "Há retorno gratuito da consulta?",
-    resposta: "O retorno é considerado uma nova consulta e possui valor. A política de retornos pode variar conforme o caso – entre em contato para esclarecer."
+    resposta: "Não há retorno gratuito."
   },
   {
     pergunta: "Quanto tempo duram as consultas/atendimentos?",
-    resposta: "As consultas psiquiátricas geralmente duram em torno de 50 minutos. As sessões de psicoterapia também têm duração aproximada de 50 minutos."
+    resposta: "As consultas psiquiátricas têm duração média de 60 minutos, podendo ter duração um pouco maior no primeiro atendimento para coleta de informações mais completas. As sessões de terapia têm duração aproximada de 50 minutos."
   },
   {
     pergunta: "Com que frequência são realizados os atendimentos?",
-    resposta: "A frequência dos atendimentos depende do tipo de abordagem e da gravidade do quadro. Geralmente as sessões de psicoterapia são semanais (1–2x por semana). Já as consultas clínicas psiquiátricas podem variar de semanais a trimestrais, conforme o paciente estabiliza."
+    resposta: "A frequência dos atendimentos vai depender do tipo de abordagem (consulta clínica psiquiátrica ou atendimento de psicoterapia), e da gravidade e estabilidade do quadro. Geralmente as sessões de psicoterapia têm frequência semanal (1-2x/semana). Já as consultas clínicas psiquiátricas podem variar entre consultas semanais a trimestrais, sendo que, conforme o paciente estabiliza, a tendência é espaçar as consultas clínicas dentro de um limite de segurança para reavaliação."
   },
   {
-    pergunta: "Quais as formas de pagamento?",
-    resposta: "Entre em contato pelo WhatsApp (11) 99971-6789 ou e-mail cmpcoelhodesouza@gmail.com para informações atualizadas sobre formas de pagamento aceitas."
+    pergunta: "Quais são as formas de pagamento?",
+    resposta: "Os pagamentos podem ser realizados via PIX ou transferência bancária."
   },
   {
     pergunta: "Preciso ir buscar a receita no consultório após a consulta online?",
-    resposta: "Não. As receitas das consultas online são enviadas digitalmente ao paciente por e-mail ou outro meio combinado, sem necessidade de retirar no consultório."
+    resposta: "Depende. As receitas brancas de controle especial que são utilizadas para a grande maioria dos medicamentos psiquiátricos podem ser enviadas por via digital. Se houver indicação de prescrição de medicamentos que precisem de receituário especial azul ou amarelo, há necessidade de buscar no consultório ou combinarmos de enviar por Correios."
   },
   {
     pergunta: "Como faço para agendar?",
-    resposta: "Entre em contato pelo WhatsApp (11) 99971-6789 ou pelo e-mail cmpcoelhodesouza@gmail.com para agendar sua consulta. A clínica está localizada na Rua Dr. Amâncio de Carvalho, 182, conjunto 305 - Vila Mariana, São Paulo-SP, e também oferece atendimento via telemedicina."
+    resposta: "Entre em contato pelo WhatsApp (11) 99971-6789 ou pelo email cmpcoelhodesouza@gmail.com para agendar seu atendimento. Nossa equipe responderá durante o horário comercial para verificar os melhores horários disponíveis e confirmar seu agendamento."
   }
 ];
 

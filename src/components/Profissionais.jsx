@@ -69,13 +69,13 @@ function Profissionais() {
               "Tristeza e desânimo na maior parte dos dias",
               "Esgotamento/Burnout",
               "Pensamentos obsessivos",
-              "Busca de autoconhecimento",
               "Pânico",
               "Insônia",
-              "Traumas",
-              "Busca de melhor qualidade de vida",
+              "Busca de autoconhecimento",
               "Ansiedade excessiva",
               "Compulsões",
+              "Busca de melhor qualidade de vida",
+              "Traumas",
               "Déficit de atenção",
               "Entre outros sintomas",
             ].map((item) => (
@@ -120,7 +120,7 @@ function Profissionais() {
               <li>Professor do Curso de Psicanálise para Formação de Psicoterapeutas do Departamento de Psiquiatria da UNIFESP (2009 a 2012).</li>
             </ul>
             <p className="profissional-texto-final">
-  Atendimentos em Psicoterapia (abordagem psicanalítica) em consultório particular na Vila Mariana-SP ou via teleatendimento.
+            Atendimentos em Psicoterapia - abordagem Psicanalítica (pacientes a partir de 18 anos). Atendimento presencial e via teleatendimento.
 </p>
           </div>
         </div>
@@ -153,17 +153,19 @@ function Profissionais() {
 </p>
 
       <p className="profissional-subtitulo">
-  Atendimentos em Psiquiatria Geral Adulto. Foco principal na avaliação e tratamento de:
+      Atendimentos em Psiquiatria Geral Adulto (pacientes a partir de 18 anos). Foco principal na avaliação e tratamento de:
 </p>
               <ul className="profissional-detalhes">
-
-              <li>Atendimentos em Psiquiatria Geral Adulto com foco em:</li>
               <li>Transtornos ansiosos</li>
               <li>Pânico</li>
               <li>Burnout</li>
               <li>Transtorno Obsessivo-Compulsivo</li>
               <li>Insônia</li>
             </ul>
+
+            <p className="profissional-texto-final">
+            Atendimento presencial e via telemedicina.
+            </p>
               </div>
             </div>
             <div className="col-12 col-lg-5">
