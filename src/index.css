@@ -33,7 +33,8 @@ body {
   color: #555;
 }
 
-.hero-left button {
+.hero-left button,
+.hero-left a.agende-whatsapp {
   width: 285px;           /* largura Figma */
   height: 57px;           /* altura Figma */
   border-radius: 28.5px;  /* raio arredondado */
@@ -43,9 +44,15 @@ body {
   font-size: 1rem;
   cursor: pointer;
   transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
-.hero-left button:hover {
+.hero-left button:hover,
+.hero-left a.agende-whatsapp:hover {
   background-color: #044275;
 }
 
@@ -195,7 +202,8 @@ body {
 
 
 
-.hero-left button {
+.hero-left button,
+.hero-left a.agende-whatsapp {
   padding: 10px 30px;
   border-radius: 50px;
   border: none;
@@ -206,7 +214,8 @@ body {
   transition: 0.3s;
 }
 
-.hero-left button:hover {
+.hero-left button:hover,
+.hero-left a.agende-whatsapp:hover {
   opacity: 0.85;
 }
 
@@ -230,7 +239,8 @@ body {
 }
   .hero-left h1,
   .hero-left p,
-  .hero-left button {
+  .hero-left button,
+  .hero-left a.agende-whatsapp {
     margin-left: auto;
     margin-right: auto;
   }
@@ -243,7 +253,8 @@ body {
 }
 
 
-  .hero-left button {
+  .hero-left button,
+  .hero-left a.agende-whatsapp {
     width: 200px;  /* menor no mobile */
     height: 50px;
   }
@@ -347,6 +358,7 @@ body {
   cursor: pointer;
   border-radius: 50%;
   background-color: #25D366; /* verde oficial WhatsApp */
+  color: #fff; /* ícone via currentColor no SVG */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -383,7 +395,7 @@ body {
 .whatsapp-float svg {
   width: 32px;
   height: 32px;
-  fill: white;
+  fill: currentColor;
   display: block; /* evita espaços/baseline que podem “quebrar” */
   flex: 0 0 auto;
   pointer-events: none; /* garante toque no link */

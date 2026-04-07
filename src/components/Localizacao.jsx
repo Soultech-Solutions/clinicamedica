@@ -1,5 +1,6 @@
 import "./Localizacao.css";
-import clinicaImg from "../assets/clinica.png";
+import clinicaImg from "../assets/clinica-scaled.jpeg";
+import { WHATSAPP_AGENDAR_URL } from "../constants/whatsapp";
 function Localizacao() {
   return (
     <section className="localizacao-section" id="localizacao">
@@ -20,9 +21,14 @@ function Localizacao() {
             Email: cmpcoelhodesouza@gmail.com
           </p>
 
-          <button className="btn-agendar">
+          <a
+            href={WHATSAPP_AGENDAR_URL}
+            className="btn-agendar"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Agende agora!
-          </button>
+          </a>
         </div>
 
         <div className="localizacao-imagem">

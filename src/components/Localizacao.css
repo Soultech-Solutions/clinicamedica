@@ -40,6 +40,14 @@
   border-radius: 25px;
   cursor: pointer;
   margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font: inherit;
+}
+
+.btn-agendar:hover {
+  opacity: 0.92;
 }
 
 .localizacao-imagem img {
