@@ -148,24 +148,10 @@ function Profissionais() {
               <li>Business Program na FH Joanneum University of Applied Sciences - Áustria (2010).</li>
             </ul>
 
-            <p className="profissional-texto-final">
-  Atendimentos a pacientes adultos a partir de 18 anos em consultório particular na Vila Mariana-SP ou via telemedicina.
-</p>
-
-      <p className="profissional-subtitulo">
+      <p className="profissional-texto-final">
       Atendimentos em Psiquiatria Geral Adulto (pacientes a partir de 18 anos). Foco principal na avaliação e tratamento de:
 </p>
-              <ul className="profissional-detalhes">
-              <li>Transtornos ansiosos</li>
-              <li>Pânico</li>
-              <li>Burnout</li>
-              <li>Transtorno Obsessivo-Compulsivo</li>
-              <li>Insônia</li>
-            </ul>
 
-            <p className="profissional-texto-final">
-            Atendimento presencial e via telemedicina.
-            </p>
               </div>
             </div>
             <div className="col-12 col-lg-5">
