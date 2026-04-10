@@ -151,7 +151,17 @@ function Profissionais() {
       <p className="profissional-texto-final">
       Atendimentos em Psiquiatria Geral Adulto (pacientes a partir de 18 anos). Foco principal na avaliação e tratamento de:
 </p>
+              <ul className="profissional-detalhes">
+              <li>Transtornos ansiosos</li>
+              <li>Pânico</li>
+              <li>Burnout</li>
+              <li>Transtorno Obsessivo-Compulsivo</li>
+              <li>Insônia</li>
+            </ul>
 
+            <p className="profissional-texto-final">
+            Atendimento presencial e via telemedicina.
+            </p>
               </div>
             </div>
             <div className="col-12 col-lg-5">
