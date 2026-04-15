@@ -2,6 +2,7 @@ import prof1 from "../assets/prof1.png";
 import prof2 from "../assets/prof2.png";
 import "./Profissionais.css";
 import planta from "../assets/planta-profissional.png";
+import { getWhatsappEspecialidadeUrl } from "../constants/whatsapp";
 
 function Profissionais() {
   return (
@@ -26,7 +27,18 @@ function Profissionais() {
             <p>
             Avaliação diagnóstica e tratamento medicamentoso com acompanhamento individualizado. Atendimento baseado em evidências, com escuta qualificada, foco na estabilização clínica e qualidade de vida.
             </p>
-            <button>Saiba mais</button>
+            <button
+              type="button"
+              onClick={() =>
+                window.open(
+                  getWhatsappEspecialidadeUrl("Psiquiatria Clínica do Adulto"),
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              Saiba mais
+            </button>
             </div>
           </div>
 
@@ -37,7 +49,18 @@ function Profissionais() {
             Atendimento psicoterapêutico com abordagem psicanalítica voltado à compreensão profunda dos conflitos emocionais, padrões de comportamento e processos inconscientes, para pessoas em busca de autoconhecimento e transformação duradoura.
 
             </p>
-            <button>Saiba mais</button>
+            <button
+              type="button"
+              onClick={() =>
+                window.open(
+                  getWhatsappEspecialidadeUrl("Psicoterapia Psicanalítica"),
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              Saiba mais
+            </button>
             </div>
           </div>
 
@@ -47,7 +70,18 @@ function Profissionais() {
             <p>
               Integração entre acompanhamento psiquiátrico e psicoterapia, respeitando a singularidade de cada paciente e promovendo cuidado contínuo, ético e personalizado.
             </p>
-            <button>Saiba mais</button>
+            <button
+              type="button"
+              onClick={() =>
+                window.open(
+                  getWhatsappEspecialidadeUrl("Saúde Mental Integrada"),
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              Saiba mais
+            </button>
             </div>
           </div>
 
